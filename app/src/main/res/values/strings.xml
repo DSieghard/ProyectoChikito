@@ -13,7 +13,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Inicio</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
@@ -24,6 +24,8 @@
     <string name="notification_info">Activar o desactivar notificaciones</string>
     <string name="public_profile">Perfil público</string>
     <string name="public_profile_info">Haz que tu perfil sea visible para todos</string>
+    <string name="settings">Configuración</string>
+
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
     <string name="sync_header">Sync</string>
@@ -38,6 +40,12 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="devmail">lfelipec@outlook.cl</string>
+    <string name="devsubject">DEFAULT CALL APP</string>
+    <string name="devtext">P L A C E H O L D E R</string>
+    <string name="mailchooser">Elige la app</string>
+    <string name="errorapp">No existen apps de correo electrónico disponibles.</string>
 
 
 </resources>
