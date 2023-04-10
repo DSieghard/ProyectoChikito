@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Proyecto Chikito</string>
+    <string name="nav_open">Placeholder</string>
+    <string name="nav_close">Placeholder</string>
+    <string name="main">Inicio</string>
+    <string name="search">Buscar</string>
+    <string name="profile">Perfil</string>
 </resources>
