@@ -40,14 +40,14 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.appBarMain.toolbar)
 
-        binding.appBarMain.fab.setOnClickListener { view ->
+        binding.appBarMain.fab.setOnClickListener {
             //Get data and open mail app
             intent.data = Uri.parse("mailto:")
             intent.putExtra(Intent.EXTRA_EMAIL, email)
             intent.putExtra(Intent.EXTRA_SUBJECT, subject)
             intent.putExtra(Intent.EXTRA_TEXT, text)
 
-            //Validate if mail app is avaliable, and open default mail app
+            //Validate if mail app is available, and open default mail app
             if(chooserIntent.resolveActivity(packageManager) != null) {
                 startActivity(chooserIntent)
                 Log.d("$this", "Opening default Mail App")
