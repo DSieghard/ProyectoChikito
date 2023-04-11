@@ -8,8 +8,8 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Proyecto Chikito</string>
+    <string name="nav_header_subtitle">lfelipec@outlook.cl</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -47,5 +47,24 @@
     <string name="mailchooser">Elige la app</string>
     <string name="errorapp">No existen apps de correo electrónico disponibles.</string>
 
+    <string name="csbutton">Pulsalo, pulsa el botón</string>
+
+    <string-array name="lorem_ipsum">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </item>
+        <item>Nullam viverra metus at aliquam commodo.</item>
+        <item>Integer bibendum purus et ultricies sollicitudin.</item>
+        <item>Aliquam bibendum eros pharetra lectus accumsan consectetur.</item>
+        <item>Nulla malesuada odio in nisi imperdiet dictum.</item>
+        <item>Sed eu augue suscipit dui accumsan tristique.</item>
+        <item>Nulla tristique nisl efficitur eros viverra scelerisque.</item>
+        <item>Integer et purus sit amet ante eleifend consectetur ut quis ante.</item>
+        <item>Duis ut risus sit amet nibh maximus condimentum.</item>
+        <item>Donec gravida nibh nec dignissim porttitor.</item>
+        <item>Cras viverra justo hendrerit lacinia pretium.</item>
+        <item>Fusce aliquet leo a leo viverra varius.</item>
+        <item>Pellentesque eget libero eget purus tempor vulputate.</item>
+        <item>Sed vitae ligula quis nunc sagittis fringilla.</item>
+        <item>Praesent nec est et dolor bibendum pretium.</item>
+    </string-array>
 
 </resources>

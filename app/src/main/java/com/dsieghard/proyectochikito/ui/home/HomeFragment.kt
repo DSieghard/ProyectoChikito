@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.dsieghard.proyectochikito.R
 import com.dsieghard.proyectochikito.databinding.FragmentHomeBinding
 
+@Suppress("NAME_SHADOWING")
 class HomeFragment : Fragment() {
 
 private var _binding: FragmentHomeBinding? = null
@@ -22,7 +24,7 @@ private var _binding: FragmentHomeBinding? = null
     savedInstanceState: Bundle?
   ): View {
     val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+        ViewModelProvider(this)[HomeViewModel::class.java]
 
     _binding = FragmentHomeBinding.inflate(inflater, container, false)
     val root: View = binding.root
@@ -31,7 +33,15 @@ private var _binding: FragmentHomeBinding? = null
     homeViewModel.text.observe(viewLifecycleOwner) {
       textView.text = it
     }
-    return root
+
+      val randomText = resources.getStringArray(R.array.lorem_ipsum)
+
+      binding.changeButton.setOnClickListener {
+          val randomText = randomText.random()
+          binding.textHome.text = randomText
+      }
+
+      return root
   }
 
 override fun onDestroyView() {
